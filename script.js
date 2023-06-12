@@ -19,6 +19,7 @@ buttons.forEach((button) => {
 
 /*Customer Review Section*/
 var swiper = new Swiper('.review-slider', {
+  loop:true,
   spaceBetween: 10,
   grabCursor: true,
   autoplay: {
