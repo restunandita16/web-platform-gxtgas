@@ -22,26 +22,20 @@ var swiper = new Swiper('.review-slider', {
   slidesPerView: 1,
   spaceBetween: 10,
   grabCursor: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
   },
+  centeredSlides: true,
   breakpoints: {
-    '@0.00': {
-      slidesPerView: 1,
-      spaceBetween: 10,
+    0: {
+      slidesPerView:1,
     },
-    '@0.00': {
-      slidesPerView: 2,
-      spaceBetween: 10,
+    768: {
+      slidesPerView:2,
     },
-    '@0.00': {
+    1020: {
       slidesPerView: 3,
-      spaceBetween: 10,
-    },
-    '@0.00': {
-      slidesPerView: 4,
-      spaceBetween: 10,
     },
   },
 });
