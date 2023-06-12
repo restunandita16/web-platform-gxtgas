@@ -230,8 +230,8 @@ body {
 }
 
 .review .review-slider {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
   margin-top: -1rem;
   text-align: right;
 }
@@ -298,7 +298,7 @@ body {
   display: grid;
   grid-template-columns: repeat(autofit, minmax(25rem, 1fr));
   gap: 0.5rem;
-  margin-left: 3rem;
+  margin-left: 2.5rem;
 }
 
 .footer .box-container .box h3 {
