@@ -210,3 +210,121 @@ body {
 .button:hover {
   background-color: #555;
 }
+
+/*Customer Review Section*/
+
+.heading {
+  text-align: center;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.heading span {
+  background: rgb(239, 137, 4);
+  color: aliceblue;
+  display: inline-block;
+  padding: 0rem 1rem;
+  clip-path: polygon(100% 0%, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+
+.review .review-slider {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: -1rem;
+}
+
+.review .review-slider .box {
+  background-color: yellow;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 3rem 2rem;
+  outline-offset: -1rem;
+  outline: auto;
+  box-shadow: var(--box-shadow);
+  transition: 0.2s linear;
+  margin-bottom: 2rem;
+}
+
+.review .review-slider .box:hover {
+  outline: var(--outline-hover);
+  outline-offset: 0rem;
+}
+
+.review .review-slider .box img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.review .review-slider .box p {
+  padding-top: 1rem;
+  line-height: 1.8;
+  color: var(--light-color);
+  font-size: 0.7rem;
+}
+
+.review .review-slider .box h3 {
+  padding-bottom: 0.3rem;
+  color: var(--black);
+  font-size: 1rem;
+}
+
+.review .review-slider .box .stars i {
+  color: rgb(239, 137, 4);
+  font-size: 1rem;
+}
+
+/*Footer*/
+.footer {
+  background: whitesmoke;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(25rem, 1fr));
+  gap: 0.5rem;
+  margin-left: 3rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 1rem;
+  color: rgb(15, 1, 1);
+  padding: -1rem -1rem;
+}
+
+.footer .box-container .box p {
+  line-height: 1.2;
+  font-size: 0.7rem;
+  color: black;
+  padding: -1rem 0;
+}
+
+.footer .box-container .box .share a {
+  height: 1.2rem;
+  width: 1.2rem;
+  line-height: 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: rgb(8, 8, 8);
+  margin-left: 0.2rem;
+  background: white;
+  text-align: center;
+}
+
+.credit {
+  text-align: center;
+  margin-top: 0rem;
+  padding: 0rem;
+  padding-top: 0rem;
+  font-size: 0.8rem;
+  color: white;
+  border-top: var(--border);
+  background-color: black;
+}
+
+.credit span {
+  color: white;
+}
+
