@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="script.js" defer></script>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <!-- <section for Navigation bar> -->
+      <div class="fContainer flex flex-col">
+        <!-- <div class="flex flex-row justify-between"> -->
+        <div class="navContainer">
+          <div class="logo">
+            <img src="https://myeatandtravelstory.files.wordpress.com/2019/05/cover-sang-pisang-1500x1001.jpg?w=1500&h=1001&crop=1"
+              alt="logo" width="80"/>
+          </div>
+          <div class="midnav" flex flex-row gap-4>
+            <span><a href="/">Menu</a></span>
+            <li class="list-inline-item g-mx-4 g-color-primary">|</li>
+            <span><a href="/">About us</a></span>
+            <li class="list-inline-item g-mx-4 g-color-primary">|</li>
+            <span><a href="/" class="active">Shop now!</a></span>
+          </div>
+          <div class="rightnav" flex flex-row gap-4>
+            <span><a href="/">Profile</a></span>
+            <span><a href="/">Your cart</a></span>
+          </div>
+        </div> 
+      </div>
+      <section aria-label="What's new!">
+        <div class="carousel" data-carousel>
+          <button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
+          <button class="carousel-button next" data-carousel-button="next">&#8594;</button>
+          <ul data-slides class="caraousel-image">
+            <li class="slide" data-active>
+              <img src="https://stackblitz.com/files/web-platform-xkarxe/github/ChirCayo/homepage-project/main/Image/Diskon1.png" alt="Diskon1">            
+            </li>
+            <li class="slide">
+              <img src="https://stackblitz.com/files/web-platform-xkarxe/github/ChirCayo/homepage-project/main/Image/Bombolon.png" alt="Bomboloni">            
+            </li><li class="slide">
+              <img src="https://stackblitz.com/files/web-platform-xkarxe/github/ChirCayo/homepage-project/main/Image/Molen.png" alt="Molen">            
+            </li>
+          </ul>
+        </div>
+      <br>
+      </section>
+        
+      <!-- <section for Pupular menu> -->
+      <section aria-label="Popular menu!">
+        <p class="section-menu"> Popular menu 🔥</p>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img src="https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDITE20221118170103044551/photo/4b5e8ca368254f95a60938397707ab5d_1668790863239138174.webp" alt="nugget matah" style="width:100%">
+              <div class="container">
+                <h2>Banana Strips</h2>
+                <p class="title">Pisang goreng strips dengan pilihan saus spicy cheese/ sambal matah/ salted caramel</p>
+                <p>Rp. 31.900</p>
+                <p><button class="button">Order now!</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <img src="https://d1sag4ddilekf6.cloudfront.net/compressed_webp/items/IDGFSTI000013sd-CZCYLFTVG3W3BE/photo/b82f0025c5464862a32b2125a209d77d_1585551612418303986.webp" alt="Naget Pisang Coklat" style="width:100%">
+              <div class="container">
+                <h2>Naget Pisang Coklat</h2>
+                <p class="title">Naget Pisang Dibalut Dengan Glaze Coklat, Isi 10 Pcs. Free 1 Extra Topping</p>
+                <p>Rp. 30,000</p>
+                <p><button class="button">Order now!</button></p>
+              </div>
+            </div>
+          </div>          
+          <div class="column">
+            <div class="card">
+              <img src="img3.jpg" alt="John" style="width:100%">
+              <div class="container">
+                <h2>John Doe</h2>
+                <p class="title">Designer</p>
+                <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                <p>example@example.com</p>
+                <p><button class="button">Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="flex flex-col">
+          <div>
+          <span>REVIEW CUSTOMER</span>
+          </div>
+        <div class="flex flex-">
+            <span>PHOTO 1</span>
+            <span>PHOTO 2</span>
+        </div>
+      </div>
+      <br>
+      <div class="insta-section">insta</div>
+      <br>
+      <div class="footer-section">footer</div>
+      </div>
+    </main>
+  </body>
+</html>
