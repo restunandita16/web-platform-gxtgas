@@ -233,10 +233,11 @@ body {
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: -1rem;
+  text-align: right;
 }
 
 .review .review-slider .box {
-  background-color: yellow;
+  background-color: whitesmoke;
   border-radius: 0.5rem;
   text-align: center;
   padding: 3rem 2rem;
@@ -244,17 +245,17 @@ body {
   outline: auto;
   box-shadow: var(--box-shadow);
   transition: 0.2s linear;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .review .review-slider .box:hover {
-  outline: var(--outline-hover);
+  outline: auto;
   outline-offset: 0rem;
 }
 
 .review .review-slider .box img {
-  height: 10rem;
-  width: 10rem;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
 }
 
@@ -276,9 +277,21 @@ body {
   font-size: 1rem;
 }
 
+.button-link {
+  font-size: 13px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #003e52;
+  padding: 1rem 0;
+  transition: 0.2s all cubic-bezier(0.55, 0.24, 0, 1.27);
+}
+
 /*Footer*/
 .footer {
   background: whitesmoke;
+  margin-top: 2rem;
 }
 
 .footer .box-container {
@@ -327,4 +340,3 @@ body {
 .credit span {
   color: white;
 }
-
